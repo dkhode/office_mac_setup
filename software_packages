@@ -1,0 +1,28 @@
+#Setup Hombrew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew update
+
+# Install required packages
+brew cask install firefox
+brew cask install slack
+brew cask install google-chrome
+brew install awscli
+brew install go
+brew install ansible
+
+brew install tfenv
+tfenv install 0.11.10
+terraform -version
+
+brew cask install iterm2
+brew cask install atom
+brew cask install visual-studio-code
+brew cask install evernote
+brew cask install virtualbox
+brew cask install docker
+brew cask install minikube
+brew cask install zoomus
+brew cask install skype
+
+# For music lovers
+brew cask install spotify
