@@ -27,3 +27,14 @@ brew cask install skype
 
 # For music lovers
 brew cask install spotify
+
+# bash completetion
+brew install git
+brew install bash-completion
+# Add bash-completion to your ~/.bash_profile:
+
+[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion || {
+    # if not found in /usr/local/etc, try the brew --prefix location
+    [ -f "$(brew --prefix)/etc/bash_completion.d/git-completion.bash" ] && \
+        . $(brew --prefix)/etc/bash_completion.d/git-completion.bash
+}
