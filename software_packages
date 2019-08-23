@@ -16,6 +16,8 @@ tfenv install 0.11.10
 terraform -version
 
 brew cask install iterm2
+brew install zsh zsh-completions
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 brew cask install atom
 brew cask install visual-studio-code
 brew cask install evernote
