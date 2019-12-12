@@ -41,3 +41,10 @@ brew install bash-completion
     [ -f "$(brew --prefix)/etc/bash_completion.d/git-completion.bash" ] && \
         . $(brew --prefix)/etc/bash_completion.d/git-completion.bash
 }
+
+
+#eksctl installation on aws
+brew tap weaveworks/tap
+brew install weaveworks/tap/eksctl
+eksctl version
+
