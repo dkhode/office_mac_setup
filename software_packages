@@ -10,7 +10,6 @@ brew install awscli
 brew install kubernetes-helm
 brew install go
 brew install ansible
-brew cask install virtualbox
 
 brew install tfenv
 tfenv install 0.11.10
