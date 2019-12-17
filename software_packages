@@ -7,7 +7,7 @@ brew cask install firefox
 brew cask install slack
 brew cask install google-chrome
 brew install awscli
-bew install kubernetes-helm
+brew install kubernetes-helm
 brew install go
 brew install ansible
 brew install virtualbox
